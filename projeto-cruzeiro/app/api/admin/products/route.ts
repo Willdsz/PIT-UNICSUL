@@ -32,11 +32,8 @@ export const POST = auth(async (req: any) => {
     image: '/images/camiseta.jpg',
     price: 0,
     category: 'categoria exemplo',
-    brand: 'marca exemplo',
-    countInStock: 0,
     description: 'descrição exemplo',
     rating: 0,
-    numReviews: 0,
   })
   try {
     await product.save()

@@ -83,8 +83,6 @@ export default function Products() {
                 <td>{product.name}</td>
                 <td>R$ {product.price}</td>
                 <td>{product.category}</td>
-                <td>{product.countInStock}</td>
-                <td>{product.rating}</td>
                 <td>
                   <Link
                     href={`/admin/products/${product._id}`}
