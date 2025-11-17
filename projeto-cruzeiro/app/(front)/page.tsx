@@ -24,7 +24,7 @@ export default async function Home() {
             className="carousel-item relative w-full"
           >
             <Link href={`/product/${product.slug}`}>
-              <img src={product.banner} className="w-full" alt={product.name} />
+              <img src={product.image} className="w-full" alt={product.name} />
             </Link>
             <div
               className="absolute flex justify-between transform 
